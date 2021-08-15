@@ -16,7 +16,7 @@ const bookingRoutes = require('./Routes/bookingRoutes')
 const connectionDB =require('./Connection/connection');
 
 dotenv.config()
-const PORT = process.env.PORT
+PORT = process.env.PORT || 5000;
 connectionDB()
 //handle static file
 app.use(express.static('public'))
