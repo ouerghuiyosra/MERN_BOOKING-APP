@@ -1,0 +1,163 @@
+
+/*
+*
+* ==========================================
+* navbar 
+* ==========================================
+*
+*/
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+      background: #1C2331!important;
+  }
+}
+.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+.navLink{
+  display: flex;
+  justify-content: center;
+  margin-left: 380px;
+  font-size: 20px;
+}
+  
+  button{
+    width:90px;
+    height: 50px;
+    background-color: whitesmoke;
+
+  }
+  button:hover{
+    background-color: gainsboro;
+    border-color: palevioletred
+
+  }
+  
+  .btn-primary {
+    color: black;
+    background-color:whitesmoke;
+    border-color: transparent
+
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color:black;
+  background-color: rgb(248, 245, 248);
+  border-color: transparent;
+  border-color: transparent
+
+
+}
+.btn-primary.focus, .btn-primary:focus {
+  color:black;
+  background-color: whitesmoke;
+  border-color: transparent;
+  box-shadow: none;
+
+;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+ box-shadow:none; 
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+box-shadow: none; 
+}
+.btn:not(:disabled):not(.disabled) {
+  
+  background-color: whitesmoke;
+  border-color: transparent
+
+}
+.btn-primary:hover{
+  background-color: hsla(0, 100%, 90%, 0.3);
+  color: black;
+  border-color: transparent
+
+}
+.dropdown-toggle::after {
+
+  content: none;
+
+}
+.dropdown-menu {
+ 
+  background-color:hsla(0, 100%, 90%, 0.3);;
+  opacity: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.dropdown-divider {
+
+  border-top: 1px solid black;
+}
+  .navImg{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+  }
+  .navIcon{
+    height: 50%;
+    width: 50%; 
+  }
+a{
+  color:inherit;
+text-decoration: inherit;}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+/*
+*
+* ==========================================
+* Footer
+* ==========================================
+*
+*/
+
+.footerPage {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #91b1c0;
+    margin-top: auto;
+}
+
+
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+  color: rgb(3, 3, 54);
+}
+
+
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+.mt-5, .my-5 {
+   margin-top: 0rem!important; 
+}
+/*
+*
+* ==========================================
+* alert
+* ==========================================
+*
+*/
+.close {
+  float: right;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+height: 10px;
+width: 50px;}

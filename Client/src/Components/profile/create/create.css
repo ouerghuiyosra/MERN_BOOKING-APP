@@ -1,0 +1,42 @@
+.createProfile{
+background-color: #FFC9B7;
+     margin: auto;
+     height: auto
+
+}
+.bg-light {
+    background-color:  #eebeae !important;
+    border-radius: 6px;
+}
+.createForm{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+h1 {
+    margin-bottom: 40px
+}
+
+label {
+    color: rgb(100, 92, 92);
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+  
+
+
+}
+
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,107 @@
+.BookingForm{
+    margin-top: 100px;
+}
+.BookingPage{
+    margin: auto;
+    height: auto;
+}
+.Booking{
+    display: flex;
+    justify-content: space-between;
+}
+.formtitle {
+    color: rgb(5, 5, 104);;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 2px solid #dae1e7;
+    padding-bottom: 20px;
+    margin: 0 0 30px;
+    
+}
+.booking-review-title {
+    color: rgb(5, 5, 104);;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.userInfo{
+    position: relative;
+    width: 800px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: -40px;
+    margin-bottom: 50px;
+
+}
+.bookingInfo{
+    border: 2px solid rgb(146, 141, 141);
+    border-radius: 5px;
+    height: 450px;
+    width: 300px;
+}
+.Infr{
+   
+    border-radius: 5px;
+    height: 500px;
+    width: 740px;
+    background-color:  whitesmoke;
+    box-shadow: 2px 2px 2px 2px rgb(216, 212, 212);
+}
+.inputInfo{
+    border: 1px solid #FEB7B3;
+    border-radius: 15px !important;
+    box-shadow: none;
+    font-size: 14px;
+    text-align: center;
+    font-size: 15px;
+}
+.btconfirm{
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
+    color: #FFFFFF ;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin-bottom:  20px;
+    margin-left: 250px;
+  }
+ 
+ .houtingInfo {padding: 30px;
+    border-bottom: 1px solid #eaeef3;
+    color: rgb(5, 5, 104);;
+}
+    .reservationInfo{
+        padding: 30px;
+    border-bottom: 1px solid #eaeef3;
+    }
+    .review-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .review-list li {
+        margin-bottom: 13px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .label{
+        color: rgb(230, 30, 77);
+        font-size: 20px;
+    }
+    .val{
+        color: rgb(158, 137, 142);
+    }
+    .total-review{
+        padding: 30px;
+    }
+    li.final-total {
+        border-top: 1px solid #eaeef3;
+        padding-top: 10px;
+        font-size: 19px;
+    }
+    .valPrice{
+        color: rgb(5, 5, 104);;
+    }

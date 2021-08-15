@@ -1,0 +1,184 @@
+
+
+.cardbooking {
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    background-color: #eebeae;
+    margin-top: 40px;
+    height:350px;
+    padding: 20px;
+
+}
+.HoustingDate{
+    border: 2px ;
+    padding: 10px;
+    width: 100px;
+    background-color: #e6dedc;
+    height: 80px;
+    box-shadow: 5px 5px #00000087;
+border-radius: 6px;
+color: #697dfc;
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border-bottom: 150px;
+}
+
+
+
+.bookingIfo{
+    display: flex;
+    justify-content: space-between;
+}
+  
+.bkInfo{
+    display:flex;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #697dfc;
+
+    margin-top: 20px;
+}
+
+.servicewishlist {
+    right: 0px;
+    z-index: 10;
+    background-color: #00000087;
+    border-bottom-left-radius: 20px;
+    top: 0;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 50px;
+    margin-top: -19px;
+    margin-left: 329px;
+    text-align: center;
+}
+
+.modalconfirm {		
+    color: #636363;
+    width: 400px;
+    margin: 30px auto;
+}
+.modalconfirm .modalcontent {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+}
+.modalconfirm .modalheader {
+    border-bottom: none;   
+    position: relative;
+}
+.modalconfirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -10px;
+}
+.modalconfirm .close {
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+.modalconfirm .modalbody {
+    color: rgb(122, 117, 117);
+    margin-top: 20px;
+}
+.modalconfirm  {
+    border: none;
+    text-align: center;		
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px 15px 25px;
+}
+.modalconfirm  a {
+    color: #999;
+}		
+.modalconfirm .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 9;
+    text-align: center;
+    border: 3px solid #f15e5e;
+}
+.modalconfirm .iconbox i {
+    color: #f15e5e;
+    font-size: 46px;
+    display: inline-block;
+    margin-top: 13px;
+}
+.modalconfirm .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #575a5a;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    min-width: 120px;
+    border: none;
+    min-height: 40px;
+    border-radius: 3px;
+    margin: 0 5px;
+    outline: none !important;
+}
+.modalconfirm .btninfo {
+    background: #c1c1c1;
+}
+.modalconfirm .btninfo:hover, .modalconfirm .btninfo:focus {
+    background: #a8a8a8;
+}
+.modalconfirm .btndanger {
+    background: #f15e5e;
+}
+.modalconfirm .btndanger:hover, .modalconfirm .btndanger:focus {
+    background: #ee3535;
+}
+.triggerbtn {
+    display: inline-block;
+    margin: 100px auto;
+}
+
+
+.confirm{
+    height: 350px;
+    margin-top: 20px;
+}
+
+.x{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #ee3535;
+}
+.btsave{
+    border-radius:6px;
+    background-color: #f70808;
+    height: 50px;
+    width: 100px;
+    margin-right: 50px;
+    color: #FFFFFF ;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+
+    font-size: 30px;
+}
+.btcancel{
+    border-radius:6px;
+    background-color: #a8a8a8;
+    height: 50px;
+    width: 100px;
+    margin-right: 50px;
+    color: #FFFFFF ;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+
+    font-size: 30px;
+}
+.descriptionPost{
+    font-size: 15px;
+}

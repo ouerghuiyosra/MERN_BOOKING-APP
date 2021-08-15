@@ -1,0 +1,193 @@
+.view{
+    background-image: url("../../Img/hs.jpg");
+     background-repeat: no-repeat;
+      background-size: cover;
+      height: 300px;
+margin-bottom: 1200px;   
+}
+.searchResult{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.marginForm{
+    margin-top: 250px;
+}
+.product-search {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 30px;
+    box-shadow: rgba(0,0,0,.172549) 0 6px 12px 0;
+    cursor: pointer;
+  }
+  
+  .search-element {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    border-right: 1px solid rgba(10,10,10,.1);
+    padding: 1em;
+  }
+  
+  .search-label {
+    font-weight: 500;
+  }
+  input{
+    border: none;
+color: black;
+  }
+  .search-input {
+    border: none;
+    appearance: none;
+    outline: none;
+    width: 100%;
+    height: 14px;
+    font-size:18px;
+    margin-top: 5px;
+  }
+  
+  .search-input:focus {
+    box-shadow: 0px 2px 0px 0px rgb(255, 56, 92);
+  }
+  
+  .search-button {
+    display: inline-block;
+    flex-grow: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 20px;
+    line-height: 1.33;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(255, 56, 92);
+    transition: background-color 0.8s ease;
+  }
+  
+  .search-button:hover {
+    background-color: HSLA(345, 100%, 60%, 1.00);
+    color: rgb(240, 238, 238);
+
+  }
+  .react-datepicker__close-icon::after {
+    cursor: pointer;
+    background-color: #d7dadd;
+    color: rgb(100, 93, 93);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 1px;
+    font-size: 20px;
+    line-height: 0.5;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* pagination */
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 140px;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 56, 92);
+  color: rgb(255, 56, 92);
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: rgb(255, 56, 92);
+}
+
+.paginationActive a {
+  color: white;
+  background-color: rgb(255, 56, 92);
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.title{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(5, 5, 104);
+
+}
+.place{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+
+.types{
+ 
+  width: 300px;
+  border: none;
+  box-shadow: none;
+  font-size: 20px;
+  color: rgb(100, 93, 93);
+  position: relative;
+  left: 0!important;
+  padding: 0!important;
+  height: 25px;
+  background: transparent
+}
+.types:focus {
+  outline: none !important;
+  box-shadow: none;
+  box-shadow: none;
+}
+
+
+option{
+  margin-top: 50px;
+  color: rgb(99, 97, 97);
+  border-radius: 6px;
+  font-size: 25px;
+}
+
+select option:checked:after {
+  content: attr(title);
+  background: #666;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  border: none;
+}
+
+
+
+
+.containerP {
+  padding: 2px 16px;
+  margin-left: 50px;
+}
+.Imgplace{
+  border-radius: 60px;
+  width: 300px;
+  height: 350px;
+}
+.PPlace{
+   width: 300px;
+  height: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(5, 5, 104);
+  font-size: 25px;
+}
+.cntCard{
+  display: flex;
+  justify-content: space-between;
+}

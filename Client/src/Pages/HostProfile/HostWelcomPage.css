@@ -1,0 +1,43 @@
+.hostWelcom{
+    background-image: url("https://uswitch-contentful.imgix.net/t014ej9w3ur1/4CDwYhIDHBekRp80tKo1ty/73e76b47c965975500db24c26d9c1f04/keys-with-house-keyring.CDN5e4e78f0.jpg?auto=format%2Ccompress&fit=crop&ixlib=react-8.6.4&h=512&w=1024");
+    background-repeat: no-repeat;
+     background-size: cover;
+     margin: auto;
+     height: 700px
+}
+
+.welcom{
+    font-size: 45px;
+    font-style: italic;
+    line-height: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(255, 56, 92);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.infotext{
+    font-size: 65px;
+    font-style: italic;
+    line-height: 65px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(255, 56, 92);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.btcreate{
+    background-color: rgb(241, 232, 216); 
+    border-radius: 6px;
+    color:rgb(255, 56, 92);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: auto;
+}
+
+.btprofile{
+    text-align: center;
+}

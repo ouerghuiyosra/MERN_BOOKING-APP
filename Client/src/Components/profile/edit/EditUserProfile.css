@@ -1,0 +1,32 @@
+.addre{
+    width: 100%;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.btview{
+ 
+    background-color: gray;
+    color: #FFFFFF ;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    width: 70px;
+    margin-right:15px;
+    }
+    .bteditPost{
+        background-color: #d68a6e;
+        color: #FFFFFF ;
+        width: 10%;
+        border-radius: 6px;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+        width: 70px;
+        margin-right:15px;
+      
+    }

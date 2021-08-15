@@ -1,0 +1,85 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+.imagePosts{
+    height: 350px;
+}
+.feature-card {
+    width: 300px;
+    height: 350px;
+    margin: 50px auto;
+    background-position: center top;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+}
+.feature-card-deatails {
+    position: absolute;
+    bottom: -228px;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+    color: rgb(104, 102, 102);
+}
+
+
+
+
+.feature-card:hover .feature-card-tilte {
+    bottom: -67px;
+}
+
+.feature-card-deatails i {
+    font-size: 20px;
+    color: rgb(255, 56, 92);
+}
+
+
+
+
+
+.feature-card:hover .feature-card-deatails {
+    bottom: 0;
+}
+
+.btrevPost{
+    background: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
+    color: #FFFFFF ;
+    width: 10%;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    width: 130px;
+    margin-top:45px;
+    margin-left: 50px;
+  
+}
+
+ .service-wishlist {
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+    background-color: #00000087;
+    border-bottom-left-radius: 20px;
+    top: 0;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
