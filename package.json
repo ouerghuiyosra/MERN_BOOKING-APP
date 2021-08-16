@@ -2,14 +2,14 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "Server.js",
+  "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
-    "Server": "nodemon Server.js",
-    "start": " nodemon Server.js",
-    "Client": "npm start --prefix client",
-    "dev": "concurrently \"npm run Client \" \"npm run Server\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Client && npm run build --prefix Client"
+    "server": "nodemon server.js",
+    "start": " nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run client \" \"npm run server\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
