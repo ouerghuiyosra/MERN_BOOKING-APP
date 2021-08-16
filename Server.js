@@ -16,7 +16,7 @@ const bookingRoutes = require('./Routes/bookingRoutes')
 const connectionDB =require('./Connection/connection');
 
 dotenv.config()
-PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT
 connectionDB()
 //handle static file
 app.use(express.static('public'))
@@ -30,12 +30,12 @@ app.use('/api/booking',bookingRoutes);
 
 //Serve static assets in production
 if (process.env.NODE_ENV === "production") {
-    //Set static folder
-    app.use(express.static("client/build"));      
-  
-    app.get("*", (req, res) => {
-      res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
-    });
-  }
+  //Set static folder
+  app.use(express.static("client/build"));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
+}
 
 app.listen(PORT,(err)=>{err ? console.log(err):console.log(`You are connected on ${PORT}`)})
