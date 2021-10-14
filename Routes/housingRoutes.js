@@ -116,6 +116,5 @@ router.post("/comment/:id",isAuth, CommentHousting);
 //@desc  delete comment
 //@access   Private
 */
-
 router.delete("/comment/:housting_id/:comment_id",isAuth,deleteComment)
 module.exports = router
